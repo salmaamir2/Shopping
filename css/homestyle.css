@@ -1,0 +1,128 @@
+.write{
+    height:350px; 
+    width: 1520px; 
+    background-color:black;
+    position: relative;
+    bottom:20px;
+}
+.writeone{
+    text-align: center;
+    font-family: cursive; 
+    color: white;font-size:45px; 
+    position:relative;
+    top:40px;
+}
+.writetwo{
+    text-align: center;
+    color: white;
+    font-size:30px; 
+    position:relative;
+    top:50px; 
+    letter-spacing: 15px;
+}
+.writethree{
+    text-align: center;
+    color:red;
+    font-size:50px; 
+    position:relative;
+    top:65px; 
+    font-family: sans-serif;
+}
+
+
+.darkmode{
+    height: 70px;
+    width:750px; 
+    font-size: 40px;
+    position:relative;
+    top: 270px;
+    left: 400px;
+    letter-spacing: 20px; 
+    color: red;
+}
+
+.imageone{
+    height: 160px;
+    width: 160px; 
+    position:relative;
+    top:335%; 
+    left:75px;  
+    
+}
+.nameone{
+    position: absolute;
+    top:249%;
+    left:149px;
+    font-family:inherit; 
+    font-size:25px;
+    letter-spacing:  20px;
+}
+.caption1{
+    position: absolute;
+    top:255%; 
+    left:165px;
+    font-family:cursive;
+}
+.imagetwo{
+    height: 160px;
+    width: 160px;
+    position:relative;
+    top:235%; 
+    left:250px;
+}
+.nametwo{
+    position: absolute;
+    top:249%; 
+    left:509px;
+    font-family:inherit; 
+    font-size:25px;
+    letter-spacing:20px;
+}
+.caption2{
+    position: absolute;
+    top:255%; 
+    left:515px;
+    font-family:cursive;
+}
+.imagethree{
+    height: 150px;
+    width: 170px; 
+    position:relative;
+    top:150%; 
+    left:430px; 
+}
+.namethree{
+    position: absolute;
+    top:249%; 
+    left:860px;
+    font-family:inherit;
+    font-size:25px;
+    letter-spacing:15px;
+}
+.caption3{
+    position: absolute;
+    top:255%; 
+    left:880px;
+    font-family:cursive;
+}
+.imagefour{
+    height: 150px;
+    width: 170px;
+    position:relative;
+    top:50%; 
+    left:600px;
+}
+.namefour{
+    position: absolute;
+    top:249%; 
+    left:1200px;
+    font-family:inherit; 
+    font-size:25px;
+    letter-spacing:15px;
+}
+.caption4{
+    position: absolute;
+    top:255%; 
+    left:1220px;
+    font-family:cursive;
+}

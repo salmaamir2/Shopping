@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="css/stylepage2.css">
+<link rel="stylesheet"href='css/bootstrap.min.css'/>
+    <title>page two</title>
+    
+<style>
+ .dark-mode {
+                 background-color: black;
+                 color: white;
+        }
+</style>
+</head>
+<body>
+ <!--toggle button-->
+    
+<div class="dropdown">
+  <button onclick="myFunction()" class="dropbtn">Dropdown</button>
+  <div id="myDropdown" class="dropdown-content">
+    <a href="Home.html">Home</a>
+    <a href="page3.html">Girls</a>
+    <a class="darkmode" onclick="myFunction1()" href="#contact">Dark mode</a>
+    
+  </div>
+</div>
+<!--write-->
+
+<div class="main">
+
+<h1>Clothes for boys</h1>
+<hr>
+
+<h2>New collection</h2>
+    
+<!--Button-->
+    
+<div id="myBtnContainer">
+  <button class="btn active" onclick="filterSelection('all')"> Show all</button>
+  <button class="btn" onclick="filterSelection('t-shirt')"> T-shirt</button>
+  <button class="btn" onclick="filterSelection('trouser')">Trousers</button>
+  <button class="btn" onclick="filterSelection('shorts')"> Shorts</button>
+</div>
+ <!--cards-->
+    
+<div class="row">
+     <div class="column t-shirt">
+    <div class="content">
+      <img  src="image/Trouble-maker-T-Shirt-For-kids-Navy-Boy_1800x.webp" style="width:100%;height: 400px;">
+      <h4 style="color: dimgray;">PRICE:$234</h4>
+      <p style="color: dimgray;">Blue t-shirt</p>
+    </div>
+  </div>
+  
+    <div class="column trouser">
+    <div class="content">
+      <img src="image/723c1ca6d93785bf7ef749c7f06e0e12.jpg"  style="width:100%;height: 400px;">
+      <h4 style="color: dimgray;">PRICE:$255</h4>
+      <p style="color: dimgray;">Green and black trouser</p>
+    </div>
+  </div>
+    <div class="column t-shirt">
+    <div class="content">
+    <img src="image/HTB1a_G1KVXXXXbGXXXXq6xXFXXX9.jpg"  style="width:100%;height: 400px;">
+      <h4 style="color: dimgray;">PRICE:$344</h4>
+      <p style="color: dimgray;">Colorful t-shirt</p>
+    </div>
+  </div>
+    <div class="column trouser">
+    <div class="content">
+      <img src="image/01_6104010422_SI_00.jpg" style="width:100%;height: 400px;">
+      <h4 style="color: dimgray;">PRICE:$254</h4>
+      <p style="color: dimgray;">Yellow trouser</p>
+    </div>
+  </div>
+    <div class="column t-shirt">
+    <div class="content">
+      <img src="image/HTB16bP6LXXXXXaWXpXXq6xXFXXXs.jpg_.webp"  style="width:100%;height: 400px;">
+      <h4 style="color: dimgray;">PRICE:$334</h4>
+      <p style="color: dimgray;">Blue t-shirt</p>
+    </div>  
+  </div>
+  <div class="column trouser">
+    <div class="content">
+    <img src="image/cccfe9e8e342265a2f91fda050908d12.jpg"  style="width:100%;height: 400px;">
+      <h4 style="color: dimgray;">PRICE:$134</h4>
+      <p style="color: dimgray;">Jeans trouser</p>
+    </div>
+  </div>
+  <div class="column trouser">
+    <div class="content">
+    <img src="image/2bf266e0f5781773512a69995bd729ef.jpg"  style="width:100%;height: 400px;">
+      <h4 style="color: dimgray;">PRICE:$285</h4>
+      <p style="color: dimgray;">Red trouser</p>
+    </div>
+  </div>
+  <div class="column shorts">
+    <div class="content">
+    <img src="image/studio_2019_-2k8a0078-all_rights_reserved_missbaby_sl.jpg" style="width:100%;height: 400px;">
+      <h4 style="color: dimgray;">PRICE:$334</h4>
+      <p style="color: dimgray;">Yellow short</p>
+    </div>
+  </div>
+   <div class="column t-shirt">
+    <div class="content">
+      <img src="image/Gap-PJ-Shirt.jpg"  style="width:100%;height: 400px;">
+      <h4 style="color: dimgray;">PRICE:$214</h4>
+      <p style="color: dimgray;">Blue t-shirt</p>
+    </div>
+  </div>
+    <div class="column t-shirt">
+    <div class="content">
+      <img src="image/Retail-For-small-boys-Tops-Children-s-T-shirts-summer-children-s-t-shirt-for-Clothing.jpg_q50.jpg"  style="width:100%;height: 400px;">
+      <h4 style="color: dimgray;">PRICE:$336</h4>
+      <p style="color: dimgray;">Black and white t-shirt</p>
+    </div>
+  </div>
+    <div class="column shorts">
+    <div class="content">
+    <img src="image/product-image-1247830659_1024x1024.jpg" alt="Car" style="width:100%;height: 400px;">
+      <h4 style="color: dimgray;">PRICE:$111</h4>
+      <p style="color: dimgray;">Green short</p>
+    </div>
+  </div>
+    <div class="column t-shirt">
+    <div class="content">
+      <img src="image/Cute-om-T-Shirt-For-kids-Grey-Boy_1800x.webp" style="width:100%;height: 400px;">
+      <h4 style="color: dimgray;">PRICE:$212</h4>
+      <p style="color: dimgray;">Gray t-shirt</p>
+        </div>
+  </div>
+   <div class="column shorts">
+    <div class="content">
+    <img src="image/97cd39db6ab99ffc4b2a701ba475916b.jpg"  style="width:100%;height: 400px;">
+      <h4 style="color: dimgray;">PRICE:$311</h4>
+      <p style="color: dimgray;">Jeans short</p>
+    </div>
+  </div>
+     <div class="column t-shirt">
+    <div class="content">
+      <img src="image/1194150803.g_400-w-st_g.jpg"  style="width:100%;height: 400px;">
+      <h4 style="color: dimgray;">PRICE:$221</h4>
+      <p style="color: dimgray;">White t-shirt</p>
+    </div>
+  </div>
+    <div class="column shorts">
+    <div class="content">
+    <img src="image/20160216231906.jpg" style="width:100%;height: 400px;">
+      <h4 style="color: dimgray;">PRICE:$131</h4>
+      <p style="color: dimgray;">Colorful short</p>
+    </div>
+  </div>
+    <div class="column ">
+    <div class="content">
+      <img src="image/GUEST_d8dbcb6c-c6e0-4c5f-8824-1051bf62cbb7.jpg" style="width:100%;height: 400px;">
+      <h4 style="color: dimgray;">PRICE:$331</h4>
+      <p style="color: dimgray;">Blue t-shirt</p>
+    </div>
+  </div>
+   <div class="column trouser">
+    <div class="content">
+      <img src="image/3200a8617dfbc6139b8251a36d5118de.jpg"  style="width:100%;height: 400px;">
+      <h4 style="color: dimgray;">PRICE:$166</h4>
+      <p style="color: dimgray;">White trouser</p>
+    </div>
+  </div>
+  <div class="column t-shirt">
+    <div class="content">
+    <img src="image/3835bad7c1cde5397897faf75e2893b6.jpg" style="width:100%;height: 400px;">
+      <h4 style="color: dimgray;">PRICE:$186</h4>
+      <p style="color: dimgray;">Colorful t-shirt</p>
+    </div>
+  </div>
+
+  <div class="column shorts">
+    <div class="content">
+      <img src="image/1588f477950aebe87854c2d09657d098.jpg"  style="width:100%;height: 400px;">
+      <h4 style="color: dimgray;">PRICE:$132</h4>
+      <p style="color: dimgray;">Grey short</p>
+    </div>
+  </div>
+    <div class="column trouser">
+    <div class="content">
+      <img src="image/eaf45f252f7e3e70971605ee3d8cea91.jpg"  style="width:100%;height: 400px;">
+      <h4 style="color: dimgray;">PRICE:$191</h4>
+      <p style="color: dimgray;">Green trouser </p>
+    </div>
+  </div>
+  
+  <div class="column shorts">
+    <div class="content">
+    <img src="image/3PO-320px-KBoy-E20-T2_2.jpg" style="width:100%;height: 400px;">
+      <h4 style="color: dimgray;">PRICE:$188</h4>
+      <p style="color:dimgrey;">White short</p>
+    </div>
+  </div>
+
+</div>
+</div>
+
+    <!--toggle button java-->
+<script>
+
+function myFunction() {
+  document.getElementById("myDropdown").classList.toggle("show");
+}
+window.onclick = function(event) {
+  if (!event.target.matches('.dropbtn')) {
+    var dropdowns = document.getElementsByClassName("dropdown-content");
+    var i;
+    for (i = 0; i < dropdowns.length; i++) {
+      var openDropdown = dropdowns[i];
+      if (openDropdown.classList.contains('show')) {
+        openDropdown.classList.remove('show');
+      }
+    }
+  }
+}
+</script>
+    
+    
+    <!--parts of cards-->
+<script>
+filterSelection("all")
+function filterSelection(c) {
+  var x, i;
+  x = document.getElementsByClassName("column");
+  if (c == "all") c = "";
+  for (i = 0; i < x.length; i++) {
+    w3RemoveClass(x[i], "show");
+    if (x[i].className.indexOf(c) > -1) w3AddClass(x[i], "show");
+  }
+}
+
+function w3AddClass(element, name) {
+  var i, arr1, arr2;
+  arr1 = element.className.split(" ");
+  arr2 = name.split(" ");
+  for (i = 0; i < arr2.length; i++) {
+    if (arr1.indexOf(arr2[i]) == -1) {element.className += " " + arr2[i];}
+  }
+}
+
+function w3RemoveClass(element, name) {
+  var i, arr1, arr2;
+  arr1 = element.className.split(" ");
+  arr2 = name.split(" ");
+  for (i = 0; i < arr2.length; i++) {
+    while (arr1.indexOf(arr2[i]) > -1) {
+      arr1.splice(arr1.indexOf(arr2[i]), 1);     
+    }
+  }
+  element.className = arr1.join(" ");
+}
+
+var btnContainer = document.getElementById("myBtnContainer");
+var btns = btnContainer.getElementsByClassName("btn");
+for (var i = 0; i < btns.length; i++) {
+  btns[i].addEventListener("click", function(){
+    var current = document.getElementsByClassName("active");
+    current[0].className = current[0].className.replace(" active", "");
+    this.className += " active";
+  });
+}
+</script>
+ 
+    
+    <!--Dark mode-->
+<script>
+function myFunction1() {
+   var element = document.body;
+   element.classList.toggle("dark-mode");
+}
+</script>
+    
+
+</body>
+</html>

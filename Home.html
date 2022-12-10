@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Bootstrap</title>
+    <link rel="styelsheet" herf="css/stylesheet.css">
+
+    <link rel="stylesheet"href='css/bootstrap.min.css'/>
+    <link rel="stylesheet"href='css/fontawesome.min.css'/>
+    <link rel="stylesheet"href='css/style.css'/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+   
+    <style>
+          .mySlides {
+                 display:none;
+                 width:1520px;
+                  height:750px;
+              position: relative;
+              bottom: 50px;
+                 
+        }
+          .dark-mode {
+                 background-color: black;
+                 color: white;
+        }
+ 
+        
+    
+
+</style>
+</head>
+<body>
+    
+    <!--nav bar-->
+    
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <img src="logo.png" width="30" height="30" class="d-inline-block align-top" alt="">
+                AnAnAsA
+            </a>
+            <button class="navbar-toggler" data-toggle="collapse" data-target="#navbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbar">
+                <ul class="navbar-nav mx-auto">
+                    <li class="nav-item ">
+                        <a class="nav-link" href="home.html">Home </a>
+                    </li>
+
+                    <li class="nav-item ">
+
+                        <a class="nav-link" href="login.html">login </a>
+
+                    </li>
+
+
+                    <li class="nav-item ">
+                        <a class="nav-link" href="SignUp.html"> Sign up </a>
+                    </li>
+                    <li class="nav-item ">
+                     
+                        <a class="nav-link" href="TeamMembers.html">About Us </a>
+                    </li>
+                    <li class="nav-item ">
+                    <a class="nav-link" href="ahmed/contact us.html">Contact us </a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Category
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="sara/cards.html">technology</a>
+                            <a class="dropdown-item" href="reem/index2.html"> Accessories</a>
+                            <a class="dropdown-item" href="trind.html">trinding items</a>
+
+                            <a class="nav-link  dropdown-toggle " href="salma/Home.html" id="navbarDropdown" role="button"
+                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="color: black;">
+                                kids <span class="caret"></span> </a>
+                            <div class="dropdown-submenu" aria-labelledby="navbarDropdown">
+                                <a class="dropdown-item" href="salma/page2.html">boy</a>
+                                <a class="dropdown-item" href="salma/page3.html">girl</a>
+                            
+
+                            </div>
+
+                            <a class="nav-link dropdown-toggle " href="#" id="navbarDropdown" role="button"
+                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="color: black;">
+                                Women <span class="caret"></span> </a>
+                            <div class="dropdown-submenu" aria-labelledby="navbarDropdown">
+                                <a class="dropdown-item" href="try.html">Dress</a>
+                              
+                    
+
+                            </div>
+                            <a class="nav-link dropdown-toggle " href="ahmed/Home.html" id="navbarDropdown" role="button"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="color: black;">
+                            men <span class="caret"></span> </a>
+                        <div class="dropdown-submenu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="ahmed/T-Shirts.html">t-shirt</a>
+                            <a class="dropdown-item" href="ahmed/Jeans.html">jeans</a>
+
+                            <a class="dropdown-item" href="ahmed/Shirts.html">shirts</a>
+
+                        </div>   
+            
+
+                        </div>
+
+                    </li>
+
+                </ul>
+
+                <form class="form-inline my-2 my-lg-0">
+                    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search"
+                        id="search">
+                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit" onclick="getInputValue();">Search</button>
+                    <ul class="list-group" id="list"></ul>
+                </form>
+            </div>
+        </div>
+    </nav>
+    <br>
+    <br>
+
+    <!-- slider-->
+    
+  <div class="slideshow">
+      
+                <img class="mySlides" src="image/PH-1.jpg">
+                <img class="mySlides" src="image/Kids-clothes-Hong-Kong-seed.jpg"  >
+                <img class="mySlides" src="image/MAR_BOS-0P_ecolo.jpg" >
+      
+
+</div>    
+ <!-- text-->
+    
+  <section class="write">
+    <div>
+                 <h1 class="writeone">We've got what you need!</h1>
+                 <h3  class="writetwo">New summer collection for girls and boys</h3>
+                 <h1  class="writethree">Sale 50%</h1>
+                
+      
+      </div>
+    </section>   
+    <!-- buttons-->
+    
+ <div >
+                <img src="image/Girls-Spring-Break-Matchables-1170x780.jpg"  class="rounded-circle girlscircle" style="  height: 450px;  width: 650px;position: absolute;top: 1150px;" >
+    
+                <a class="btn btn-light btn-xl js-scroll-trigger one" href="page3.html"  style="position: absolute;top:189%;left: 5%; font-size: 30px;font-family:inherit; letter-spacing: 20px;  width: 500px; ">Girls</a>
+ </div>
+    
+<div>
+               <img src="image/All_Toddler_Boy.jpg"  class="rounded-circle" style="height: 450px; width: 680px;position: absolute; right: 12px; top:1150px;">
+    
+               <a class="btn btn-light btn-xl js-scroll-trigger" href="page2.html"  style="position: absolute;top:189%;right: 6%; font-size: 30px;font-family:inherit; letter-spacing:  20px; width: 500px; ">Boys</a>
+ </div>
+    
+    <!--images circle  and text--> 
+    
+<div class="imageone">
+     <img src="image/tulle-ballet-tutu-skirts-for-child-wrap-chiffon-dance-aprons-for-children-girls-ballet-skirt-latin-skating-dance-for-kids-w01277-800x800.jpg"          class="rounded-circle imageone"></div>
+     <h3 class="nameone">Skirts</h3>
+     <h5  class="caption1">All colors and styles <br> &nbsp; &nbsp; &nbsp; are available<br><br></h5>
+    
+    
+    <div class="imagetwo">   
+    <img src="image/a9fef990-5015-4be8-97d4-3932e5c772f3.jpeg" class="rounded-circle imagetwo"></div>
+    <h3 class="nametwo">Dress</h3>
+    <h5 class="caption2">All colors and styles <br> &nbsp; &nbsp; &nbsp; are available<br><br></h5>
+    
+    
+    <div class="imagethree">
+    <img src="image/H4781521eba0c425ba95d3790e1e69a28p.jpg_q50.jpg" class="rounded-circle imagethree"></div>
+    <h3 class="namethree">Trouser</h3>
+    <h5  class="caption3">All colors and styles <br> &nbsp; &nbsp; &nbsp; are available<br><br></h5>
+    
+    
+    <div class="imagefour">    
+    <img src="image/poster.jpg" class="rounded-circle imagefour"></div>
+    <h3 class="namefour">T-shirt</h3>
+    <h5 class="caption4">All colors and styles <br> &nbsp; &nbsp; &nbsp; are available<br><br></h5>  
+    
+    
+    
+<!--Dark mode button-->
+    
+    <button  class="darkmode" onclick="myFunction()">Dark mode</button>
+   
+    <!-- footer-->
+    
+    <footer class="page-footer ont-small special-color-dark  pt-4" style="height: 250px;">
+
+    <ul class="list-unstyled list-inline text-center">
+     
+     
+           <a href="#" class="fa fa-twitter"></a>
+      
+     
+            <a href="#" class="fa fa-facebook"></a>
+      
+      
+            <a href="#" class="fa fa-instagram"> </a>
+        
+        
+            <a href="#" class="fa fa-google"></a>
+        
+        
+            <a href="#" class="fa fa-youtube"></a>
+    </ul>
+    
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+   <div class="Add">
+        <ul class="list-unstyled">
+          <li>
+            <p>
+             <a class="active" href="#"><i class="fa fa-fw fa-home"></i>  Egypt, Helwan, fcih</a>
+                &nbsp;&nbsp;
+                <a  class="active"href="#"><i class="fa fa-fw fa-envelope"></i>info@example.com </a>
+                &nbsp;&nbsp;
+              <a  class="active"href="#"><i class="fa fa-fw fa-user"></i>+ 01 134 567 89 </a>
+              
+              </p>        
+          </li>
+         
+        </ul>
+
+      </div> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+
+    </footer> 
+    
+    
+    
+    
+    
+    
+    
+    <script src="js/jquery-3.4.1.js"></script>
+ 
+    <script src="js/bootstrap.min.js"></script>
+    
+<script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  myIndex++;
+  if (myIndex > x.length) {myIndex = 1}    
+  x[myIndex-1].style.display = "block";  
+  setTimeout(carousel, 1000);
+}
+</script>
+
+    
+<script>
+function myFunction() {
+   var element = document.body;
+   element.classList.toggle("dark-mode");
+}
+</script>
+
+
+<script src=""></script>
+
+</body>
+</html>
